@@ -302,3 +302,33 @@ margin-top: 70%;
 
 
 }
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  body {
+    background-color:   rgb(255, 255, 255);
+  }
+
+  .paypal {
+    margin-left: 15%;
+     margin-top: -10%; 
+     width: 300px;
+  }
+  #myimage {
+    margin-top: 50%;
+    margin-right: 50%;
+  }
+  .textdown {
+margin-top: 70%;
+
+  }
+
+.all {
+  display: inline-block;
+}
+.backbutton {
+  margin-top: 0;
+}
+
+
+  
+}
