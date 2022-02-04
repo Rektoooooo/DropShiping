@@ -340,3 +340,49 @@ html, body {
     margin: 40px auto 80px auto;
     font-size: 1.75em;
 }
+
+@media only screen and (max-width: 600px) {
+
+body {
+
+    width: 100%;
+   }
+
+
+   .shop-item {
+    margin: 30px;
+    width: 100%;
+}
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+    font-size: 60px;
+}
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .shop-item-image {
+    height: 400px;
+    margin-left: 4%;
+}
+
+
+
+
+
+
+}
